@@ -18,7 +18,7 @@ public class MyConnection {
 		  try {
 			 Class.forName("com.mysql.jdbc.Driver");
 			  con=DriverManager.getConnection("jdbc:mysql://127.0.0.1/Mabase","root","" );
-			 System.out.println("done");
+			// System.out.println("done");
 			
 		 }catch(ClassNotFoundException e) {
 			 e.printStackTrace();
